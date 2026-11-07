@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Learn Web Development From Zero to Expert</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Emblema+One&family=Nosifer&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Emblema+One&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nosifer&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Anton&family=Emblema+One&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nosifer&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Anton&family=Emblema+One&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nosifer&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    background-color:#F8FAFC;
+}
+    #head{
+
+         font-family: "Emblema One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 5px 6px rgb(156, 140, 101);
+  color:#475569;
+    }
+    #par{
+        
+         font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding :0px;
+  font-size: 20px;
+    }
+    #button{
+        text-align: center;
+       
+        display: block;
+
+    }
+    #bu{
+        text-align: center;
+        
+        display: block;
+    }
+    #bu :hover{
+          background-color:#475569;
+    }
+    #button:hover{
+        background-color: #475569;
+    }
+    #Learning{
+        text-align: left;
+        /* text-decoration: underline; */
+        display: inline-block;
+        box-sizing: border-box;
+        border-radius:100px;
+        border: 2px solid black;
+        text-shadow: 2px 1px 3px gray;
+
+    }
+    #sec{
+        display: flex;
+        margin-top: 0px;
+
+    }
+    #le{
+        overflow-x: scroll;
+        /* white-space: nowrap; */
+        height: 40px;
+    border:2px solid black;
+    width: 50vw;
+    height: 35vh;
+    text-align:justify;
+    background-color: lightgray;
+
+    }
+#html{
+    border:2px solid black;
+    
+}
+.head{
+    color:rgb(17, 17, 69);
+    text-shadow: 1px 1px 1px blue;
+
+}
+.html{
+    display: flex;
+    gap:300px;
+    border:2px solid black;
+    justify-content: center;
+    box-sizing: border-box;
+    border-color: #BFDBFE;
+    background-color: #F1F5F9;
+    margin-top: opx;
+   
+}
+.red{
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 40px ;
+    overflow: hidden;
+    text-align: center;
+    border-color: #031a39;
+     box-shadow: 7px -2px 2px  rgb(142, 142, 140);
+}
+.head:hover{
+   color:#EFF6FF
+}
+.gg{
+    color:	#010a17;
+    padding:10px;
+}
+.love{
+    font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.you{
+    color:#010812;
+    font:bold;
+    text-shadow: 1px 1px 1px lightslategrey;
+    
+}
+.no{
+    display: flex;
+    border: 2px solid black;
+   gap:5px;
+   
+
+}
+.ye{
+border-radius: 40px;
+box-sizing: border-box;
+border :3px solid black;
+  overflow: hidden;
+  text-align: center;
+  /* gap:85px; */
+  box-shadow: 3px 3px 3px slategray;
+  /* text-shadow:blueviolet; */
+
+}
+.no{
+    background-color: #F1F5F9;
+}
+.try{
+    display: flex;
+    /* background-color: 	#F1F5F9; */
+    gap: 200px;
+    list-style:none; 
+
+
+}
+.kro{
+     border :2px solid black;
+    border-radius: 40px;
+    padding: 45px;
+    list-style:none; 
+    background-image: url("canvas.png");
+    color:#021225;
+}
+.stru{
+    border :2px solid black;
+    border-radius: 40px;
+    padding:45px;
+    list-style:none; 
+    background-image: url("canvas.png");
+    color:#02132a;
+
+}
+.whole{
+    background-color: #F1F5F9;
+    border: 2px solid black;
+    display: block;
+}
+#mom{
+text-align: center;
+
+}
+#waq{
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-align: center;
+     font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.footer{
+       gap:40px;
+       border:2px solid black;
+      box-sizing: border-box;
+      display: block;
+      color:white;
+      background-color: #010812;
+      height: 100px;
+}
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* Header */
+
+    .header {
+        width: 100%;
+        height: 75px;
+        padding: 0 6%;
+        background-color: #0F172A;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+
+        border-bottom: 1px solid #1E293B;
+    }
+  /* Logo */
+
+    .logo {
+        color: #FFFFFF;
+        font-family: 'Poppins', sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .logo span {
+        color: #38BDF8;
+    }
+/* Navigation */
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .navbar a {
+        color: #F8FAFC;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .navbar a:hover {
+        color: #38BDF8;
+    }
+ /* Join Button */
+
+    .navbar .join-btn {
+        background-color: #2563EB;
+        color: #FFFFFF;
+        padding: 11px 22px;
+        border-radius: 8px;
+        font-weight: 600;
+    }
+
+    .navbar .join-btn:hover {
+        background-color: #1D4ED8;
+        color: white;
+        transform: translateY(-2px);
+    }
+    /* Mobile Menu */
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .menu-btn {
+        display: none;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+    }
+
+    .menu-btn span {
+        width: 26px;
+        height: 3px;
+        background-color: white;
+        border-radius: 5px;
+    }
+/* Responsive Design */
+
+    @media (max-width: 850px) {
+
+        .menu-btn {
+            display: flex;
+        }
+
+        .navbar {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            padding: 20px 6%;
+            background-color: #0F172A;
+
+            flex-direction: column;
+            align-items: stretch;
+            gap: 18px;
+        }
+
+        .menu-toggle:checked ~ .navbar {
+            display: flex;
+        }
+
+        .navbar a {
+            padding: 8px 0;
+        }
+
+        .navbar .join-btn {
+            text-align: center;
+        }
+
+        .header {
+            height: 70px;
+        }
+    }
+
+
+
+</style>
+<body>
+    <header>
+         <header class="header">
+
+        <a href="home" class="logo">
+            Learn<span>Tech</span>
+        </a>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+        <label for="menu-toggle" class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="navbar">
+
+            <a href="home">Home</a>
+            <a href="about">About</a>
+            <a href="courses">Courses</a>
+            <a href="tutorials">Tutorials</a>
+            <a href="learning">Learning</a>
+            <a href="contact">Contact</a>
+
+            <a href="registration" class="join-btn">Join Now</a>
+
+        </nav>
+
+
+    </header>
+    <h1 id = "head">Learn Web Development From Zero to Expert</h1>
+   <p id = "par">
+    Start your journey in web development and learn modern technologies through practical tutorials and educational resources., computer technology helps organizations manage information, communicate with customers, analyze data, and perform daily operations efficiently. It also provides opportunities for onli
+   </p>
+   <div id = "button">
+   <button>Explore Courses</button>
+</div>
+   <div id = "bu">
+   <button >Start Learning</button>
+</div>
+<img src="ll.jpg"  width ="1500px" height= "400px"lt="">
+<h1 id =  "Learning">About LearnTech</h1>
+<section id = "sec">
+<p id = "le">LearnTech is an educational platform designed to help students understand web development through simple lessons, tutorials and practical examples Computer technology has become an essential part of modern life. It plays an important role in education, business, healthcare, communication, and many other fields. A computer is an electronic device that processes information, stores data, and performs different tasks quickly and accurately.
+
+In education, computers help students learn new skills, attend online classes, prepare assignments, and explore educational resources. Teachers also use computers to create presentations, manage student records, and improve the learning experience.
+
+In the business world, computer technology helps organizations manage information, communicate with customers, analyze data, and perform daily operations efficiently. It also provides opportunities for online businesses, freelancing, and digital marketing.
+
+Modern computer technology includes several important fields, such as Artificial Intelligence, Cybersecurity, Web Development, Cloud Computing, and Data Science. These technologies are changing the way people work, communicate, and solve problems.
+
+The internet is another important part of computer technology. It connects people around the world and provides access to information, educational websites, digital libraries, and online services.
+
+However, using computers also requires responsibility. People should protect their personal information, use strong passwords, avoid suspicious websites, and follow safe internet practices.
+
+Learning computer technology is a valuable skill for students and professionals. It develops creativity, logical thinking, problem-solving abilities, and technical knowledge.
+
+Our goal is to help learners understand computer technology through simple explanations, useful tutorials, and educational resources. We believe that technology can create new opportunities and make learning easier for everyone.</p>
+<img src="pp.jpg" width = "890px"  height="320px">
+</section>
+<section class= "html">
+<div class= "red">
+    <img src="e.jpg"  width = "300px" height= "400vh"alt="">
+    <h2 class= "head"  >HTML Fundamentals</h2>
+    <p class = "gg">"Learn HTML from the basics and understand how to create the structure of modern web pages."</p>
+    <button>Learn More</button>
+</div>
+    <div class= "red">
+    <img src="9.jpg"  width = "300px" height= "400vh"alt="">
+    <h2 class= "head"   >CSS Fundamentals</h2>
+    <p class = "gg">"Learn HTML from the basics and understand how to create the structure of modern web pages."</p>
+    <button>Learn More</button>
+</div>
+<div class= "red">
+    <img src="df.jpg"  width = "300px" height= "400vh"alt="">
+    <h2 class= "head"  >JAVASCRIPT Fundamentals</h2>
+    <p class = "gg">"Learn HTML from the basics and understand how to create the structure of modern web pages."</p>
+    <button>Learn More</button>
+    
+</div>
+</section>
+
+
+
+
+<h1>Video Tutorials</h1>
+<h3>Watch, learn and improve your web development skills through easy video lessons."
+
+Heading center mein hogi</h3>
+<div class = "no">
+<div class = "ye">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU?si=uwpnIhk0MmMIimDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h1 class = "love">HTML</h1>
+<p class=" you">Learn the basics of HTML and understand how to create web pages using headings, paragraphs, images, links, and lists.</p>
+
+<button>Watch Now</button>
+
+</div>
+<div class = "ye">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AP3_V7KXHs4?si=_9ggqYWMhr-LYHIX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h1 class = "love">CSS</h1>
+<p class=" you">Discover how to style websites using colors, fonts, backgrounds, borders, layouts, and Flexbox.</p>
+
+<button>Watch Now</button>
+
+</div>
+
+<div class = "ye">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a-wVHL0lpb0?si=1qcEV1asW1-i5Tbn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h1 class = "love">JAVASCRIPT</h1>
+<p class=" you">Discover how to style websites using colors, fonts, backgrounds, borders, layouts, and Flexbox.</p>
+
+<button>Watch Now</button>
+
+</div>
+
+</div>
+<h1>
+            What will you learn?.
+         </h1>
+<div class = "try">
+    <div class = "stru">
+         
+         <ul>
+            <li>Website Structure</li>
+            <li>Website Styling</li>
+            <li>Responsive Design</li>
+            <li>Web Page Layout</li>
+         </ul>
+    </div>
+    <div class = "kro">
+         <ol>
+           <li>Learn HTML</li>
+           <li>Understand CSS</li>
+           <li>Practice JavaScript</li>
+           <li>Build Your First Website</li>
+         </ol>
+    </div>
+</div>
+<br>
+<div class = "whole">
+    <h2 id = "waq">
+        STUDENTS REGESTRATIONS
+    </h2>
+    <div>
+       <h3>Join LearnTech
+    Resegter to start learning
+    </h3>
+         <label for="Name"> Full Name</label>
+         <input type="text" id = "Name " name = "Name" placeholder="Enter your Name">
+    <div>
+         <label for="Email">Email Adress</label>
+         <input type="text" id = "Email " name = "Email" placeholder="Enter your Email">
+   </div>
+    <div>
+         <label for="Number">Phone Number</label>
+         <input type="number" id = "Number " name = "Number" placeholder="Enter your Number">
+    </div>
+    <div>
+         <label for="Password">Password</label>
+         <input type="text" id = "Password" name = "Password" placeholder="Enter your Password">
+    </div>
+    <div>
+    <h4>Select Course</h4>
+    <select name="Courses" id="Courses">
+        <option value="HTML Fundamentals">HTML Fundamentals</option>
+        <option value="CSS Styling">CSS Styling</option>
+        <option value="JavaScript Basics">JavaScript Basics</option>
+        <option value="Responsive Web Design">Responsive Web Design</option>
+        <option value="Front-End Development">Front-End Development</option>
+        <option value="Back-End Development"></option>
+        <option value="Full-Stack Web Development">Full-Stack Web Development</option>
+        <option value="UI/UX Design"></option>
+        <option value="Python Programming">Python Programming</option>
+        <option value="WordPress Development">WordPress Development</option>
+        <option value="Default Option: Select Your Course">Default Option: Select Your Course</option>
+    
+
+    </select>
+    </div>
+    <div>
+    <label for="Education">Education</label>
+    <input type="text" id = "Education " name = "Education" placeholder="Enter your Education">
+    </div>
+
+    <label for="Male">Male</label>
+    <input type="radio" id  = "gender" value="male">
+    <label for="Female">Female</label>
+    <input type="radio" id  = "gender" value="female">
+    <br>
+    <h3>
+        Drop Your Mess...
+    </h3>
+    <div>
+    <textarea name="Messege" id="Messege"  rows = "15" cols = "70" >
+    Tell Us Yours diff.........
+    </textarea></div>
+    <button id = "mom">Submit </button>
+
+</div>
+</div>
+<br>
+<div>
+<footer class = "footer">
+<a href="https//:www.aboutUs.com">About Us</a>
+<a href="https//:www.ContectUs.com">Contect us</a>
+<a href="https//:www.privicy policy">privicy policy</a>
+&copy;2026 LearnTech
+</footer></div>
+</body>
+</html>
